@@ -1,0 +1,44 @@
+name: 🚀 Deploy Payflow to GitHub Pages
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    name: Build & Deploy to GitHub Pages
+
+    steps:
+      - name: ✅ Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 📦 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: 📥 Install Dependencies
+        run: npm install
+
+      - name: 🔨 Build for GitHub Pages
+        run: npm run build:github
+
+      - name: 📄 Copy 404.html for SPA routing
+        run: cp dist/index.html dist/404.html
+
+      - name: 🚀 Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
+          force_orphan: true
+          commit_message: '🚀 Deploy Payflow – ${{ github.sha }}'
