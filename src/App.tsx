@@ -1,10 +1,15 @@
 import React from 'react';
 
-function App() {
+// Other imports remain unchanged
+
+const App = () => {
   return (
-    <div>
-      {/* Other components */}
-    </div>
+    <switch>
+      {/* Other cases */}
+
+      {/* Removed deploy-guide case in admin pages */}
+      {/* Removed deploy-guide case in user pages */}
+    </switch>
   );
 }
 
