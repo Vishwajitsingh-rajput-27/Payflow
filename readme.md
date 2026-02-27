@@ -29,10 +29,6 @@ This project focuses on frontend design and user experience. It can be integrate
 
 ## 📸 Screenshots
 
-> *Add screenshots here (optional)*
-
-Example:
-
 ![Home Screen](./screenshots/IMG_20260227_094330.jpg)  
 *Dashboard overview and transaction history*
 
