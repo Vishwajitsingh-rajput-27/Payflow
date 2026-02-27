@@ -90,7 +90,7 @@ cd Payflow
 
 ---
 
-🚧 Contributing
+## 🚧 Contributing
 
 1. Fork the repository
 
@@ -113,14 +113,14 @@ git checkout -b feature-name
 
 ---
 
-📄 License
+## 📄 License
 
 Distributed under the MIT License. See LICENSE for more information.
 
 
 ---
 
-✨ Acknowledgements
+## ✨ Acknowledgements
 
 Thanks to everyone who supports and contributes. This project is great for showcasing UI/UX design skills and acts as a base for full-stack payment app development.
 
@@ -129,4 +129,4 @@ Thanks to everyone who supports and contributes. This project is great for showc
 
 ---
 
-If you want, I can also **generate a LICENSE file**, **add badges (CI/CD, dependencies, coverage)**, or **create a version with Markdown screenshots and GIFs** for visual clarity.0
+## If you want, I can also **generate a LICENSE file**, **add badges (CI/CD, dependencies, coverage)**, or **create a version with Markdown screenshots and GIFs** for visual clarity.0
