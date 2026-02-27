@@ -1,8 +1,3 @@
-Here’s a professional, clear, and GitHub-ready README.md you can paste into your GitHub repo for your project at
-🔗 https://vishwajitsingh-rajput-27.github.io/Payflow/
-
-Feel free to customize sections like features, screenshots, and usage instructions to better reflect your exact implementation.
-
 
 ---
 
@@ -83,12 +78,9 @@ cd Payflow
 
 ![File Structure](./screenshots/file_structure.jpg)  
 *Complete File Structure*
-```
----
-
-
 
 ---
+
 
 ## 🚧 Contributing
 
@@ -108,9 +100,6 @@ git checkout -b feature-name
 
 5. Open a Pull Request
 
-
-
-
 ---
 
 ## 📄 License
@@ -126,7 +115,4 @@ Thanks to everyone who supports and contributes. This project is great for showc
 
 
 ---
-
----
-
-## If you want, I can also **generate a LICENSE file**, **add badges (CI/CD, dependencies, coverage)**, or **create a version with Markdown screenshots and GIFs** for visual clarity.0
+'''
