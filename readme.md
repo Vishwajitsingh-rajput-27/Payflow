@@ -84,8 +84,6 @@ cd Payflow
 ![File Structure](./screenshots/file_structure.jpg)  
 *Complete File Structure*
 ```
-
-'''
 ---
 
 🚧 Contributing
@@ -105,8 +103,6 @@ git checkout -b feature-name
 
 
 5. Open a Pull Request
-
-
 
 
 ---
