@@ -85,64 +85,8 @@ cd Payflow
 
 📂 File Structure
 
-Payflow/
-│
-├── 📄 index.html                        # App entry HTML – title set to "Payflow"
-├── 📄 package.json                      # NPM scripts, dependencies, devDependencies
-├── 📄 tsconfig.json                     # TypeScript compiler configuration
-├── 📄 vite.config.ts                    # Vite config (local dev, single-file build)
-├── 📄 vite.github.config.ts             # Vite config for GitHub Pages (base: /Payflow/)
-├── 📄 deploy.sh                         # One-command GitHub Pages deploy script
-├── 📄 DEPLOYMENT.md                     # Full written deployment guide
-├── 📄 FILE_STRUCTURE.md                 # This file – project structure reference
-│
-├── 📁 .github/
-│   └── 📁 workflows/
-│       └── 📄 deploy.yml               # GitHub Actions CI/CD – auto deploy on push
-│
-├── 📁 public/
-│   ├── 📄 404.html                      # GitHub Pages SPA routing fix (redirect trick)
-│   └── 📄 .nojekyll                     # Prevents GitHub from ignoring _ files
-│
-└── 📁 src/
-    │
-    ├── 📄 main.tsx                      # React DOM root render entry point
-    ├── 📄 App.tsx                       # Root component – all routes defined here
-    ├── 📄 index.css                     # Global styles + Tailwind CSS directives
-    │
-    ├── 📁 types/
-    │   └── 📄 index.ts                  # All TypeScript interfaces & types
-    │
-    ├── 📁 store/
-    │   └── 📄 index.ts                  # Zustand global state store (with localStorage)
-    │
-    ├── 📁 utils/
-    │   └── 📄 cn.ts                     # Tailwind className merge utility (clsx + twMerge)
-    │
-    ├── 📁 components/
-    │   └── 📄 Layout.tsx                # Main layout shell (sidebar + bottom nav + header)
-    │
-    └── 📁 pages/
-        │
-        ├── 📄 Login.tsx                 # User login page (JWT-style auth simulation)
-        ├── 📄 Register.tsx              # New user registration + PIN setup
-        │
-        ├── 📄 Dashboard.tsx             # Wallet overview, quick actions, recent transactions
-        ├── 📄 SendMoney.tsx             # Send money to user (search + PIN verify)
-        ├── 📄 RequestMoney.tsx          # Request money from user
-        ├── 📄 AddMoney.tsx              # Simulate adding money to wallet
-        ├── 📄 PaymentRequests.tsx       # View, accept, or reject incoming requests
-        ├── 📄 TransactionHistory.tsx    # Full transaction history with search & filter
-        ├── 📄 QRCode.tsx                # QR code for receiving payments
-        ├── 📄 Notifications.tsx         # In-app notification center
-        ├── 📄 Profile.tsx               # User profile, KYC details, change PIN
-        │
-        ├── 📄 AdminDashboard.tsx        # Admin: charts, stats, system overview
-        ├── 📄 AdminUsers.tsx            # Admin: view, block/unblock all users
-        ├── 📄 AdminTransactions.tsx     # Admin: view & filter all transactions
-        ├── 📄 AdminLogs.tsx             # Admin: system activity/audit logs
-        │
-        └── 📄 DeployGuide.tsx           # In-app GitHub Pages deployment guide
+![File Structure](./screenshots/file_structure.jpg)  
+*Complete File Structure*
 ```
 
 
